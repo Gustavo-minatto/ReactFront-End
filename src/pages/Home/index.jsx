@@ -6,11 +6,11 @@ import { api } from '../../services/api'
 
 import { Container, Brand, Menu, Search, Content, NewNote } from './styles';
 
-import { Note } from '../../components/Note';
-import { Input } from '../../components/Input';
-import { Header } from '../../components/Header';
+import { ButtonText } from '../../components/ButtonText';
 import { Section } from '../../components/Section';
-import { ButtonText } from '../../components/Buttontext';
+import { Header } from '../../components/Header';
+import { Input } from '../../components/Input';
+import { Note } from '../../components/Note';
 
 export function Home() {
   const [search, setSearch] = useState("");
