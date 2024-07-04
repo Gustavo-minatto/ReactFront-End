@@ -1,5 +1,6 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://rocketnotes-api-sk9q.onrender.com"
+  baseURL: "http://localhost:3000"
+  //baseURL: "https://cadastro-de-filmes.onrender.com"
 });
